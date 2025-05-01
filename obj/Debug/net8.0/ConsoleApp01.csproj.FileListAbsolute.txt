@@ -12,3 +12,4 @@ C:\Users\Saiha\Documents\Github\ConsoleApp01\obj\Debug\net8.0\refint\ConsoleApp0
 C:\Users\Saiha\Documents\Github\ConsoleApp01\obj\Debug\net8.0\ConsoleApp01.pdb
 C:\Users\Saiha\Documents\Github\ConsoleApp01\obj\Debug\net8.0\ConsoleApp01.genruntimeconfig.cache
 C:\Users\Saiha\Documents\Github\ConsoleApp01\obj\Debug\net8.0\ref\ConsoleApp01.dll
+C:\Users\Saiha\Documents\Github\ConsoleApp01\obj\Debug\net8.0\ConsoleApp01.sourcelink.json
