@@ -3,9 +3,9 @@ using System;
 
 namespace LuckyNumber
 {
-    class LuckyNumber
+    class Lucky
     {
-        static void Number(string[] args)
+        public static void Number(string[] args)
         {
             Random rnd = new Random();
             int number = (int)Math.Floor(Math.Sqrt(rnd.Next(1, 10000)));

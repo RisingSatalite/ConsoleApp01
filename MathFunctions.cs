@@ -2,9 +2,9 @@ using System;
 
 namespace MathSimple
 {
-    internal class MathFunctions
+    public class MathFunctions
     {
-        static void Multiply(string[] args)
+        public static void Multiply()
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Enter a number to multiply:");

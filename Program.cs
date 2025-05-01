@@ -10,7 +10,8 @@ namespace Main
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            LuckyNumber.LuckyNumber luckyNumber = new LuckyNumber.LuckyNumber();
+            Lucky.Number(args);
+            MathFunctions.Multiply();
         }
     }
 }
