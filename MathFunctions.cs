@@ -8,10 +8,10 @@ namespace MathSimple
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Enter a number to multiply:");
-            int number = Convert.ToInt32(Console.ReadLine());
+            float number = (float)Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Enter a 2nd number to multiply:");
-            int number2 = Convert.ToInt32(Console.ReadLine());
+            float number2 = (float)Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Your number is");
             Console.WriteLine(number * number2);
@@ -21,10 +21,10 @@ namespace MathSimple
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Enter a number to divid:");
-            int number = Convert.ToInt32(Console.ReadLine());
+            float number = (float)Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Enter the 2nd number to divid by:");
-            int number2 = Convert.ToInt32(Console.ReadLine());
+            float number2 = (float)Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Your number is");
             Console.WriteLine(number / number2);

@@ -11,7 +11,7 @@ namespace Main
         {
             Console.WriteLine("Hello World!");
             Lucky.Number(args);
-            MathFunctions.Multiply();
+            MathFunctions.Divid();
         }
     }
 }
