@@ -55,5 +55,22 @@ namespace MathSimple
             Console.WriteLine("Your number is");
             Console.WriteLine(number - number2);
         }
+
+        public static void Square()
+        {
+            Console.WriteLine("Enter a number to square:");
+            float number = (float)Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Your number is");
+            Console.WriteLine(number * number);
+        }
+        public static void SquareRoot()
+        {
+            Console.WriteLine("Enter a number to square root:");
+            float number = (float)Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Your number is");
+            Console.WriteLine(Math.Sqrt(number));
+        }
     }
 }
