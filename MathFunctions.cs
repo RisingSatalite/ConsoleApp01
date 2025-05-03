@@ -123,7 +123,7 @@ namespace MathSimple
         public static void ExpressionSolver()
         {
             Console.WriteLine("Enter an expression to solve (e.g., 2+2):");
-            string expression = Console.ReadLine();
+            string expression = Console.ReadLine() ?? string.Empty;
 
             // Simple expression evaluation (not secure for production use)
             var result = new DataTable().Compute(expression, null);
