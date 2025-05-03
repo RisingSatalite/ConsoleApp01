@@ -10,8 +10,7 @@ namespace Main
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Lucky.Number(args);
-            MathFunctions.ExpressionSolver();
+            Lucky.NUmberGuess();
         }
     }
 }
